@@ -19,3 +19,13 @@ scrollContainer.addEventListener('wheel', (e)=>{
     e.preventDefault(); //dont scroll up and down
     scrollContainer.scrollLeft += e.deltaY;
 })
+
+
+//auto type effect
+
+const typed = new Typed("#auto-type", {
+    strings: ['Frontend Developer', "Backend Developer", "Fullstack Developer"],
+    typeSpeed: 150,
+    backSpeed: 150,
+    loop: true,
+})

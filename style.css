@@ -85,7 +85,7 @@ nav li a:hover{
 #heroImage{
     position: relative;
     height: 90%;
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ nav li a:hover{
     }
 }
 #heroInfo{
-    width: 70%;
+    width: 65%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -134,8 +134,9 @@ nav li a:hover{
     text-transform: uppercase;
     text-indent: 3em;
 }
-#workAs{
-    /* to be done */
+#auto-type{
+    color: #7f068f;
+    font-weight: 900;
 }
 #emailId, #phone{
     color: #AA1945;
@@ -262,7 +263,7 @@ nav li a:hover{
     position: absolute;
     right: 7vw;
     left: 7vw;
-    top: 20rem;
+    top: 20.8rem;
 }
 #aboutText span{
     width: 100%;
@@ -417,7 +418,6 @@ label{
 @media (max-width:376px){
     #aboutText{
         height:85vw;
-        border: 1px solid;
         overflow-y: scroll;
     }
 }
@@ -496,7 +496,8 @@ label{
         top: 1rem;
     }
     #heroImage{
-        width: 60%;
+        top: 2.5rem;
+        width: 100%;
     }
     #heroInfo #name{
         text-indent: 0em;
